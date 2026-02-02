@@ -83,7 +83,7 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Audit
 ```
 
-![Audit Mode Screenshot](Assets/Audit Mode.png)
+![Audit Mode Screenshot](Assets/Audit_Mode.png)
 
 
 ### Enforce Mode
@@ -95,7 +95,7 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Enforce
 ```
 
-![Enforce Mode Screenshot](Assets/Enforce Mode.png)
+![Enforce Mode Screenshot](Assets/Enforce_Mode.png)
 
 
 ### Rollback Mode
@@ -107,7 +107,7 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Rollback
 ```
 
-![Rollback Mode Screenshot](Assets/Rollback Mode.png)
+![Rollback Mode Screenshot](Assets/Rollback_Mode.png)
 
 
 ---
