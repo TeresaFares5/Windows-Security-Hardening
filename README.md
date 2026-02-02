@@ -83,9 +83,6 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Audit
 ```
 
-![Audit Mode Screenshot](Assets/Audit_Mode.png)
-
-
 ### Enforce Mode
 - Applies defined security hardening settings
 - Requires administrative privileges
@@ -95,9 +92,6 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Enforce
 ```
 
-![Enforce Mode Screenshot](Assets/Enforce_Mode.png)
-
-
 ### Rollback Mode
 - Attempts to revert selected changes
 - Intended for testing and recovery scenarios
@@ -106,9 +100,6 @@ The toolkit supports three execution modes:
 ```powershell
 .\Hardening.ps1 -Mode Rollback
 ```
-
-![Rollback Mode Screenshot](Assets/Rollback_Mode.png)
-
 
 ---
 
@@ -136,18 +127,28 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```powershell
 .\Hardening.ps1 -Mode Audit
 ```
+
+![Audit Mode Screenshot](Assets/Audit_Mode.png)
+
 - **Enforce mode (applies hardening)**
 ```powershell
 .\Hardening.ps1 -Mode Enforce
 ```
+
+![Enforce Mode Screenshot](Assets/Enforce_Mode.png)
+
 - **Rollback mode (undo changes where possible)**
 ```powershell
 .\Hardening.ps1 -Mode Rollback
 ```
 
+![Rollback Mode Screenshot](Assets/Rollback_Mode.png)
+
 5. **Check Logs**
    - Logs are generated in the `logs` folder.
    - Review the latest log file to confirm system settings and actions taken.
+  
+![Logs Screenshot](Assets/Logs.png)
 
 > Note: Audit Mode is recommended before using Enforce Mode to ensure your environment is compatible.
 
