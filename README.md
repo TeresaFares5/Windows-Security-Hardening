@@ -147,8 +147,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 5. **Check Logs**
    - Logs are generated in the `logs` folder.
    - Review the latest log file to confirm system settings and actions taken.
-  
-![Logs Screenshot](Assets/Logs.png)
 
 > Note: Audit Mode is recommended before using Enforce Mode to ensure your environment is compatible.
 
@@ -160,6 +158,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 - Logs are stored in the `logs` directory
 - Audit output, enforcement actions, and errors are recorded
 - Logging supports troubleshooting, auditing, and documentation requirements
+
+![Logs Screenshot](Assets/Logs.png)
 
 ---
 
