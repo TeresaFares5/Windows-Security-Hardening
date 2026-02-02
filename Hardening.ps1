@@ -14,10 +14,10 @@ function Write-Log {
 Write-Log "Starting Windows Security Hardening"
 Write-Log "Mode: $Mode"
 
-Import-Module ".\modules\SMB.ps1"
-Import-Module ".\modules\PasswordPolicy.ps1"
-Import-Module ".\modules\Defender.ps1"
-Import-Module ".\modules\AuditPolicy.ps1"
+. "$PSScriptRoot\modules\SMB.ps1"
+. "$PSScriptRoot\modules\PasswordPolicy.ps1"
+. "$PSScriptRoot\modules\Defender.ps1"
+. "$PSScriptRoot\modules\AuditPolicy.ps1"
 
 Invoke-SMBHardening -Mode $Mode
 Invoke-PasswordPolicy -Mode $Mode
