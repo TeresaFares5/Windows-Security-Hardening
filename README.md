@@ -83,6 +83,9 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Audit
 ```
 
+![Audit Mode Screenshot](Assets/Audit Mode.png)
+
+
 ### Enforce Mode
 - Applies defined security hardening settings
 - Requires administrative privileges
@@ -92,6 +95,9 @@ The toolkit supports three execution modes:
 .\Hardening.ps1 -Mode Enforce
 ```
 
+![Enforce Mode Screenshot](Assets/Enforce Mode.png)
+
+
 ### Rollback Mode
 - Attempts to revert selected changes
 - Intended for testing and recovery scenarios
@@ -100,6 +106,9 @@ The toolkit supports three execution modes:
 ```powershell
 .\Hardening.ps1 -Mode Rollback
 ```
+
+![Rollback Mode Screenshot](Assets/Rollback Mode.png)
+
 
 ---
 
